@@ -102,7 +102,6 @@ Get a head start with our 5-minute quick start or dive straight into our learnin
 		    <p class="hint">Monitor system behavior, as well as API and application usage</p>
             </div>
       </div>
-      <!-- end card -->
   </div>
 </div>
 
