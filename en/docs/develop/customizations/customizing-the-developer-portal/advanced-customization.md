@@ -9,12 +9,19 @@ Follow the instructions below to add advanced UI customizations to the Developer
 !!! note "Prerequisites"
     - **NodeJS** - This is a platform required for ReactJS development.
     - **NPM**
-
 1. Navigate to the `<API-M_HOME>/repository/deployment/server/jaggeryapps` directory in a terminal and run the following command.
 
      ```js
-     lerna bootstrap
+     npm install
      ```
+     This will install the dependencies for `lerna` package manager
+     
+1. Then run the following command from the same directory in a terminal.
+
+     ```js
+     npm run bootstrap
+     ```
+     This will install the local package dependencies in `Publisher` and `Devportal` applications
 
 2. Run the command given below in the relevant app.
 
